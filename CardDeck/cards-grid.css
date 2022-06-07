@@ -1,0 +1,36 @@
+#main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left-area right-area";
+}
+
+#left{
+    grid-area: left-area;
+
+}
+#right{
+    grid-area: right-area;
+
+}
+.deck{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.deck > .blackCard{
+    color: black;
+}
+.deck > .redCard{
+    color: red;
+}
+
+.deck > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align:left;
+
+}

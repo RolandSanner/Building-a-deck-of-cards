@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck of Cards</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="cards.css"/>
+</head>
+<body>
+<h1 class="Cards!"></h1> 
+
+    <div>
+        <button class="btn btn-primary">Move Left</button>
+        <button class="btn btn-danger">Move Right</button>
+        <button class="btn btn-primary">Shuffle Left</button>
+        <button class="btn btn-danger">Shuffle Right</button>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+            <div id="left" class="deck">
+                <div class="redCard">A &hearts;</div>
+                <div class="redCard">3 &diams;</div>
+                <div class="blackCard">8 &clubs;</div>
+                <div class="blackCard">2 &clubs;</div>
+            </div>
+
+            </td>
+            <td>
+                <div id="right" class="deck">
+                <div class="blackCard">5 &clubs;</div>
+                <div class="blackCard">6 &clubs;</div>
+                <div class="redCard">7 &diams;</div>
+                <div class="redCard">8 &hearts;</div>
+            </div>
+
+            </td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
